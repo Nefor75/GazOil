@@ -13,6 +13,10 @@ import android.widget.Toast;
 
 public class Main2Activity extends AppCompatActivity {
 
+    SoundPool sp;
+    protected int soundKapla;
+    protected int soundbed;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,9 +44,6 @@ public class Main2Activity extends AppCompatActivity {
     protected EditText editSmes;
     protected EditText editBenz;
     protected long exit;
-    SoundPool sp;
-    protected int soundKapla;
-    protected int soundbed;
 
     public void onClick(View view) {
 
