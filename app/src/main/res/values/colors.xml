@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thickLine">#000000</color>
+    <color name="thinLine">#000000</color>
+    <color name="radiorgroup_no_checked">#BF360C</color>
+    <color name="radiorgroup_checked">#FFCA28</color>
+</resources>

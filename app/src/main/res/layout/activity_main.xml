@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="60dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_30"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/raschet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:text="@string/raschet"
+        android:textColor="#FFFF"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/toplivnoy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/toplivnoy"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/dly_dvuhtaktnyh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dly_dvuhtaktnyh"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/dvigateley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dvigateley"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/начать"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="28dp"
+        android:onClick="onClick"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/mybutton"
+        android:text="@string/nachat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+        android:textColor="#000000"
+        android:textSize="32sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/image_2"
+        tools:ignore="ContentDescription,UnusedAttribute" />
+
+</LinearLayout>

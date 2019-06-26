@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/thickLine</item>
+        <item name="colorPrimary">@color/thinLine</item>
+        <item name="android:windowBackground">@drawable/picture_fon_main</item>
+        <item name="colorControlNormal">@color/radiorgroup_no_checked</item>
+        <item name="colorControlActivated">@color/radiorgroup_checked</item>
+    </style>
+
+</resources>
