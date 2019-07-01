@@ -28,21 +28,10 @@ public class Main2Activity extends AppCompatActivity {
 
     }
 
-    protected int checkedRadioButtonId;
-    protected int convertInIntTag;
-    protected int convertInIntEditBenz;
-    protected int convertInIntEditSmes;
-    protected double resultRound;
-    protected double resultRoundTag;
-    protected double result;
-    protected double resultCrossTag;
-    protected String resultString;
-    protected String resultStringTag;
-    protected String gasolineStringTag;
-    protected String gasolineString;
-    protected String smesPlust1;
-    protected EditText editSmes;
-    protected EditText editBenz;
+    protected int checkedRadioButtonId, convertInIntTag, convertInIntEditBenz, convertInIntEditSmes;
+    protected double resultRound, resultRoundTag, result, resultCrossTag;
+    protected String resultString, resultStringTag, gasolineStringTag, gasolineString, smesPlust1;
+    protected EditText editBenz, editSmes;
     protected long exit;
 
     public void onClick(View view) {
@@ -111,13 +100,14 @@ public class Main2Activity extends AppCompatActivity {
                 }
             }
         }
+
     @Override
     public void onBackPressed(){
         if (exit + 3000 > System.currentTimeMillis()){
             super.onBackPressed();
         }
         else{
-            Toast.makeText(getBaseContext(),"Для выхода из приложения нажмите кнопку НАЗАД еще раз", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getBaseContext(),"Для выхода нажмите еще раз", Toast.LENGTH_SHORT).show();
         }
         exit = System.currentTimeMillis();
     }
