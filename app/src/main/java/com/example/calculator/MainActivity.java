@@ -8,7 +8,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
     SoundPool sp;
-    protected int soundKapla;
+    private int soundKapla;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
         soundKapla = sp.load(this, R.raw.kaplya, 1);
     }
 
-
-
     public void onClick(View view) {
 
         if (view.getId() == R.id.начать) {
@@ -30,5 +28,4 @@ public class MainActivity extends AppCompatActivity {
             finish();
         }
     }
-
 }

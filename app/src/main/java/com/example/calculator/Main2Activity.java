@@ -14,8 +14,12 @@ import android.widget.Toast;
 public class Main2Activity extends AppCompatActivity {
 
     SoundPool sp;
-    protected int soundKapla;
-    protected int soundbed;
+    private int soundKapla, soundbed;
+    private long exit;
+    protected int checkedRadioButtonId, convertInIntTag, convertInIntEditBenz, convertInIntEditSmes;
+    protected double resultRound, resultRoundTag, result, resultCrossTag;
+    protected String resultString, resultStringTag, gasolineStringTag, gasolineString, smesPlust1;
+    protected EditText editBenz, editSmes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,12 +31,6 @@ public class Main2Activity extends AppCompatActivity {
         soundKapla = sp.load(this, R.raw.kaplya, 1);
 
     }
-
-    protected int checkedRadioButtonId, convertInIntTag, convertInIntEditBenz, convertInIntEditSmes;
-    protected double resultRound, resultRoundTag, result, resultCrossTag;
-    protected String resultString, resultStringTag, gasolineStringTag, gasolineString, smesPlust1;
-    protected EditText editBenz, editSmes;
-    protected long exit;
 
     public void onClick(View view) {
 
