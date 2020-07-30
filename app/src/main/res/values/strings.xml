@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Zaebumba</string>
+    <string name="app_name">GazOil</string>
     <string name="raschet">Расчет</string>
     <string name="nachat">Начать</string>
     <string name="dly_dvuhtaktnyh">для двухтактных</string>
@@ -19,9 +19,9 @@
     <string name="_1_30">1:30</string>
     <string name="_1_40">1:40</string>
     <string name="_1_50">1:50</string>
-    <string name="maslo">Масло</string>
+    <string name="maslo">МАСЛО</string>
     <string name="proporciya">Пропорция</string>
-    <string name="benzin">Бензин</string>
+    <string name="benzin">БЕНЗИН</string>
     <string name="ml">мл</string>
     <string name="mlb">мл</string>
 </resources>
